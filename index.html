@@ -4,7 +4,6 @@
     <title>404 Error Page</title>
     <style>
         body {
-            background: url('sakura-texture.jpg') repeat; /* Use the sakura texture as the background */
             font-family: Arial, sans-serif;
         }
         .container {
@@ -14,14 +13,23 @@
             justify-content: center;
             height: 100vh;
         }
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.3; /* Lower the opacity to 0.5 for a semi-transparent image */
+            z-index: -1; /* Place it behind other content */
+        }
         .box {
             display: flex;
-            flex-direction: column; /* Use column layout for the box content */
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             width: 200px;
             height: 200px;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.9);
             border-radius: 10px;
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
             animation: shake 0.5s ease-in-out infinite;
@@ -62,6 +70,7 @@
     </style>
 </head>
 <body>
+    <img src="sakura-texture.jpg" class="background-image" alt="Sakura Texture">
     <div class="container">
         <div class="box">
             <h1>404</h1>
