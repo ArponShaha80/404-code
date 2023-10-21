@@ -1,4 +1,4 @@
-<big><b>Demo: https://hemal80.github.io/awsome-404-page-code</b></big>
+<b>Demo: https://hemal80.github.io/awsome-404-page-code</b>
 # Whats New?
 <ol type="1">
  <li>
