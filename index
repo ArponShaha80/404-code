@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>404 Error Page</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .box {
+            display: flex;
+            flex-direction: column; /* Use column layout for the box content */
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+            animation: shake 0.5s ease-in-out infinite;
+        }
+        .box h1 {
+            font-size: 72px;
+            color: #ff4d4d;
+            margin: 0;
+            padding: 0;
+            transform: rotate(-45deg);
+            animation: pulse 1s ease-in-out infinite;
+        }
+        .box p {
+            font-size: 24px;
+            color: #666;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            animation: slide 1s ease-in-out infinite;
+        }
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            50% { transform: translateX(0); }
+            75% { transform: translateX(10px); }
+            100% { transform: translateX(0); }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        @keyframes slide {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(10px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>404</h1>
+            <div><p>Page not Found</p></div>
+        </div>
+    </div>
+</body>
+</html>
