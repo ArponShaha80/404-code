@@ -8,7 +8,7 @@
  </li>
 </ol>
 #Read Please
-<ol type="*">
+<ul type="*">
  <li>
  Lower the opacity to 0.5 for a semi-transparent image 
   </li>
