@@ -7,7 +7,7 @@
   Add Opacity Option
  </li>
 </ol>
-<b>Read Please</b>
+<h2>Read Please</h2>
 <br>
 <ul type="*">
  <li>
