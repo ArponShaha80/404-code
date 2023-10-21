@@ -7,3 +7,11 @@
   Add Opacity Option
  </li>
 </ol>
+#Read Please
+<ol type="*">
+ <li>
+ Lower the opacity to 0.5 for a semi-transparent image 
+  </li>
+ <li>
+ Place it behind other content 
+ </li>
